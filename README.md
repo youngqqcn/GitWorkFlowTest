@@ -84,3 +84,9 @@ git workflow测试
 - 解决冲突: 如果分支合并过程中遇到冲突, 则需要解决冲突,再提交
 
 
+分支管理:
+
+`git branch` 查看所有分支
+`git branch --merged` 查看已经合并的
+`git branch --no-merged` 查看尚未合并的分支
+`git branch --no-merged master` 查看尚未合并到master分支的有哪些
