@@ -47,3 +47,7 @@ git workflow测试
 
 删除本地标签后,更新远程仓库的标签: `git push origin --delete v0.0.1`
 
+
+检出标签
+
+`git checkout 2.0.0`
