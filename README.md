@@ -73,6 +73,12 @@ git workflow测试
 - 4.切换回你最初工作的分支上，继续工作。
 
 
+> https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E8%B4%AE%E8%97%8F%E4%B8%8E%E6%B8%85%E7%90%86#_git_stashing
+
+在切换分之前, 如果还有没提交的修改, 有两种选择: 1.提交修改 , 2.如果暂时还不想提交,则使用 `git stash`命令将修改隐藏起来
+
+使用`git stash apply --index`
+
 
 分支工作流程:
 
