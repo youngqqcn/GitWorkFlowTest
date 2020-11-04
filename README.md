@@ -103,8 +103,8 @@ git workflow测试
 
 
 - 远程分支:
-  - `git fetch`: 只是拉取数据, 不会自动合并
-  - `git pull`: 拉取数据, 然后自动合并
+  - `git fetch`: 只拉取数据, 不会自动合并
+  - `git pull`: 拉取数据, 然后自动合并, 相当于(`git fetch` +  `git merge`)
 
 
 
