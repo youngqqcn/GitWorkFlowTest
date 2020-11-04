@@ -90,3 +90,36 @@ git workflow测试
 - 解决冲突: 如果分支合并过程中遇到冲突, 则需要解决冲突,再提交
 
 
+分支管理:
+
+`git branch` 查看所有分支
+`git branch --merged` 查看已经合并的
+`git branch --no-merged` 查看尚未合并的分支
+`git branch --no-merged master` 查看尚未合并到master分支的有哪些
+
+
+> https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81
+
+分支开发工作流:
+
+
+长期分支:
+
+master : 稳定版本
+dev: 开发
+topic
+
+
+主题分支:
+
+比如, 开发一个新的功能时, 建立一个分支, 开发完成之后, 测试通过之后, 可以合并主分支
+
+
+远程分支:
+
+`git fetch`: 只是拉取数据, 不会自动合并
+`git pull`: 拉取数据, 然后自动合并
+
+
+
+
