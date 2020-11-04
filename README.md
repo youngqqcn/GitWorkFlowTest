@@ -90,6 +90,10 @@ git workflow测试
 - 解决冲突: 如果分支合并过程中遇到冲突, 则需要解决冲突,再提交
 
 
+
+支持在某次commit上创建分支, 可以从老的版本添加功能: `git checkout commitID` and `git checkout -b newbranch`
+
+
 分支管理:
 
 `git branch` 查看所有分支
